@@ -6,14 +6,14 @@
 body{
     position: relative;
     min-height: fit-content;
-    background:hsl(0, 20%, 1%);
+    background:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header{
     margin: auto;
-    padding: 40px 80px;
-    background-color: #fafafa;
+    padding: 20px 80px;
+    background-color: cadetblue;
     display: flex;
     position: relative;
 }
@@ -21,10 +21,11 @@ header{
 .header-clean{
     justify-content: space-between;
     max-width:min-content;
+    
+    
 }
 
 .menu-left{
-    width: 65%;
     margin: 0 auto;
     display: flex;
 }
@@ -43,6 +44,7 @@ header{
     flex-direction: row-reverse;
     align-items: center;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 
 .menu ul{
@@ -55,20 +57,65 @@ header{
     text-align: center;
     align-self: center;
     list-style: none;
-    text-decoration: none;
 }
  
 a{
     text-decoration: none;
-    
-}
-.navbar-navbar-pages{
-    background-color: rgb(76, 187, 32);
-    display: flex;
+    color: white;
 }
 
+.content{
+    display: flex;
+    margin: auto;
+    max-width: 1350px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu-lateral-1{
+    padding-top: 100px;
+    display: flex;
+    padding-right: 100px;
+}
+
+
+
+.bloco-texto{
+    background-color: white;
+    margin-top: 60px;
+    width: 60%;
+}
+
+.bloco-texto p {
+    word-wrap: break-word;
+}
+
+.corpo{
+    padding: 10px 25px;
+    text-align: justify;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.btn-proximo, .btn-voltar{
+    background-color: #FACB50CC;
+    padding: 12px 12px;
+    margin: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
 .nav-items{
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .nav-items i{
@@ -83,15 +130,67 @@ a{
 }
 
 .fa-solid fa-circle{
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .nav-subtopic{
-    background-color: rgb(228, 207, 248);
+    background-color: white;
     margin: 5px 30px;
     font-size: 16px;
+    color: black;
+}
+
+.nav-subtopic a{
+    color: black;
 }
 
 .nav-link-sub {
     display: block;
+}
+
+
+
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 100px;
+    justify-content: space-between;
+    background-color: cadetblue;
+    max-width: 1350px;
+}
+
+.redes{
+    background-color: transparent;
+    padding: 30px 40px;
+    align-self: center;
+}
+
+.insta, .site, .telegram{
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.dados-uff{
+    padding: 30px 40px;
+    max-width: 340px;
+    margin: 20px 20px;
+    background-color: transparent;
+    align-self: center;
+    font-size: 17px;
+}
+
+.login{
+    padding: 30px 40px;
+    background-color: transparent;
+    align-self: center;
+}
+
+.btn-login{
+    padding: 20px 40px;
+    border: none;
+    background-color: #004AADCC;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
 }

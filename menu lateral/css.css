@@ -57,9 +57,10 @@ header{
     list-style: none;
     text-decoration: none;
 }
-
+ 
 a{
     text-decoration: none;
+    
 }
 .navbar-navbar-pages{
     background-color: rgb(76, 187, 32);

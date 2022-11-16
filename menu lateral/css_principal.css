@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: auto;
+    padding: 20px 80px;
+    background-color: cadetblue;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.header-clean{
+    justify-content: space-between;
+    max-width:min-content; 
+}
+
+.menu-left{
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo-menu{
+    margin-bottom: 10px;
+}
+
+.menu-nav-sup{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    padding: 10px 10px;
+    text-align: center;
+    align-self: center;
+    list-style: none;
+}
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    display: flex;
+    margin: auto;
+    max-width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu-lateral-1{
+    padding-top: 100px;
+    display: flex;
+    padding-right: 100px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px 60px;
+}
+
+.bloco-texto-intro{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.texto-intro{
+    margin: auto;
+    text-align: start;
+    justify-content:center;
+}
+
+.video{
+    margin: auto;
+}
+
+.topicos-main{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 10px;
+}
+
+.topicos-main p{
+    padding-left: 50px;
+}
+
+.cards{
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+}
+
+.bloco-card-front{
+    background-color: #FACB50;
+    width: 300px;
+    height: 400px;
+}
+
+
+
+
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.flip{
+    position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+
+.front, .back{
+	position: absolute;
+    backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+.back p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.flip-container:hover .flip{
+    transform: rotateY(180deg);
+} 
+
+
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 100px;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.redes{
+    background-color: transparent;
+    padding: 30px 40px;
+    align-self: center;
+}
+
+.insta, .site, .telegram{
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.dados-uff{
+    padding: 30px 40px;
+    max-width: 340px;
+    margin: 20px 20px;
+    background-color: transparent;
+    align-self: center;
+    font-size: 17px;
+}
+
+.login{
+    padding: 30px 40px;
+    background-color: transparent;
+    align-self: center;
+}
+
+.btn-login{
+    padding: 20px 40px;
+    border: none;
+    background-color: #004AADCC;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 500;
+}

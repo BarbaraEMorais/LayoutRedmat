@@ -65,6 +65,7 @@ body{
     border-top: none;
     border-right: none;
     border-left: none;
+    outline: none;
 }
 
 .b-footer{
@@ -80,6 +81,7 @@ body{
     background-color:  rgb(107, 178, 180);
     text-transform: uppercase;
     border-width: 0.5px;
+    
 }
 
 .b-footer a{

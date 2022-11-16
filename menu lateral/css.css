@@ -16,13 +16,13 @@ header{
     background-color: cadetblue;
     display: flex;
     position: relative;
+    flex-wrap: wrap;
+    top: 0;
 }
 
 .header-clean{
     justify-content: space-between;
-    max-width:min-content;
-    
-    
+    max-width:min-content; 
 }
 
 .menu-left{
@@ -67,7 +67,7 @@ a{
 .content{
     display: flex;
     margin: auto;
-    max-width: 1350px;
+    max-width: 90%;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
@@ -149,15 +149,14 @@ a{
 }
 
 
-
-
 .rodape{
     display: flex;
     flex-direction: row;
     padding: 30px 100px;
     justify-content: space-between;
     background-color: cadetblue;
-    max-width: 1350px;
+    bottom: 0;
+    max-width: 90%;
 }
 
 .redes{

@@ -7,36 +7,38 @@
   </head>
 
   <body>
-    <div id="login">
+    <div class="container">
+        <div id="login">
 
-        <form class="base">
-            <div class="b-header">
-                <div>
-                    <img src="logo.png" width="35%">
-                    <img src="logo-gma.png" class="gma" width="60%">
+            <form class="base">
+                <div class="b-header">
+                    <div>
+                        <img src="logo.png" width="35%">
+                        <img src="logo-gma.png" class="gma" width="60%">
+                    </div>
+                    <div>
+                        <h2>Faça seu Login</h2>
+                    </div>
                 </div>
-                <div>
-                    <h2>Faça seu Login</h2>
+    
+                <div class="base-content">
+                    <div class="b-content-area">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" id="usuario" autocomplete="off">
+                    </div>
+                    <div class="b-content-area">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" autocomplete="off">
+                    </div>
                 </div>
-            </div>
-
-            <div class="base-content">
-                <div class="b-content-area">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" id="usuario" autocomplete="off">
+    
+                <div class="b-footer">
+                    <input type="submit" value="enviar" class="submit">
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
                 </div>
-                <div class="b-content-area">
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" autocomplete="off">
-                </div>
-            </div>
-
-            <div class="b-footer">
-                <input type="submit" value="enviar" class="submit">
-                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
-            </div>
-
-        </form>
+    
+            </form>
+        </div>
     </div>
 </body>
 

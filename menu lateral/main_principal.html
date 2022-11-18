@@ -9,46 +9,49 @@
     <link rel="stylesheet" href="css_principal.css">
   </head>
 
-  <body>
-    <header class="header clean">
+  <body >
+    <header class="header-clean">
 
-        <div class="menu-left">
-          <figure class="logo-menu">
-            <a href="main_principal.html">
-              <img src="logo.png" width="250">
-            </a>
-          </figure>
+        <div class="container">
+            <div class="menu-left">
+                <div class="logo-menu">
+                  <a href="main_principal.html">
+                    <img src="logo.png" width="230">
+                  </a>
+                </div>
+            </div>
+        
+            <div class="menu-nav-sup">
+                <nav class="menu">
+                <ul>
+                    <li><a href="1">Funções reais de variável real</a></li>
+                    <li><a href="2">Limites e Continuidade</a></li>
+                    <li><a href="3">Derivadas</a></li>
+                    <li><a href="4">Ferramentas de Derivação</a></li>
+                    <li><a href="5">Aplicações da Derivada</a></li>
+                </ul>
+                </nav>
+            </div>
         </div>
-  
-        <div class="menu-nav-sup">
-            <nav class="menu">
-              <ul>
-                <li><a href="1">Funções reais de variável real</a></li>
-                <li><a href="2">Limites e Continuidade</a></li>
-                <li><a href="3">Derivadas</a></li>
-                <li><a href="4">Ferramentas de Derivação</a></li>
-                <li><a href="5">Aplicações da Derivada</a></li>
-              </ul>
-            </nav>
-          </div>
-  
     </header>
 
     <section>
-        <div class="intro">
-            <div class="bloco-texto-intro">
-                <div>
-                    <h2>Sobre o projeto</h2>     
+        <div class="container">
+            <div class="intro">
+                <div class="bloco-texto-intro">
+                    <div>
+                        <h2>Sobre o projeto</h2>     
+                    </div>
+                    <div class="texto-intro">
+                        <p>Este material foi elaborado como apoio à disciplina Cálculo 1A do Departamento de Matemática Aplicada (GMA) 
+                            da Universidade Federal Fluminense, ao longo de 2020 e 2021. Nós, professores da disciplina, 
+                            ficamos muito felizes que nosso trabalho possa ajudar a qualquer estudante de Cálculo.</p>
+                    </div>
                 </div>
-                <div class="texto-intro">
-                    <p>Este material foi elaborado como apoio à disciplina Cálculo 1A do Departamento de Matemática Aplicada (GMA) 
-                        da Universidade Federal Fluminense, ao longo de 2020 e 2021. Nós, professores da disciplina, 
-                        ficamos muito felizes que nosso trabalho possa ajudar a qualquer estudante de Cálculo.</p>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LdP34iA78Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LdP34iA78Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
     </section>
 
     <section class="topicos-main">
@@ -67,44 +70,112 @@
                     </div>
                     
                     <div class="back">
-                        <p>Revisão e aprofundamento de funções reais com uma variável real (funções R -> R), 
+                        <div class="bloco-card-back">
+                            <p>Revisão e aprofundamento de funções reais com uma variável real (funções R -> R ), 
                             que são o objeto central da disciplina.</p>
+                        </div>
                     </div>
+                        
                 </div>
             </div>
             <div class="flip-container">
                 <div class="flip">
-                    <div class="bloco-card-front">
-
+                    <div class="front">
+                        <div class="bloco-card-front">
+                            <h3>Limite e Continuidade</h3>
+                        </div>
                     </div>
                     <div class="back">
-                        <img src="logo.png">
+                        <div class="bloco-card-back">
+                            <p>Conceito e cálculo de limites; continuidade e suas consequências.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="flip-container">
                 <div class="flip">
                     <div class="front">
-                        <img src="logo.png">
+                        <div class="bloco-card-front">
+                            <h3>Derivadas</h3>
+                        </div>
                     </div>
+                    
                     <div class="back">
-                        <img src="logo.png">
+                        <div class="bloco-card-back">
+                            <p>Conceito de derivada, reta tangente; regra de derivação; 
+                            derivadsa de ordem superior e polinômio de Taylor.</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div class="flip-container">
                 <div class="flip">
                     <div class="front">
-                        <img src="logo.png">
+                        <div class="bloco-card-front">
+                            <h3>Aplicações das derivadas</h3>
+                        </div>
                     </div>
+                    
                     <div class="back">
-                        <img src="logo.png">
+                        <div class="bloco-card-back">
+                            <p>Taxas relacionadas; máximos e minimos; concavidade e convexidade; 
+                            problemas de optimização; esboço de gráfico de funções.</p>
+                        </div>
+                      
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
+
+    <div class="creditos">
+        <div class="container">
+            <section>
+                <div>
+                    <p>Participaram da elaboração deste material os seguintes professores do GMA-UFF:</p>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>Adriana da Luz</li>
+                        <li>Aline Andrade</li>
+                        <li>Alessia Mandini</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        
+    </div>
+        <section>
+            <div>
+                <p>A conversão do material para HTML contou com a atuação dos seguintes monitores do Projeto REDMat,
+                    coordenado pela professora Begoña Alarcón, orientados pelos professores Leonardo Silvares e 
+                    Pablo G. Barrientos:</p>
+            </div>
+
+            <div>
+                <ul>
+                    <li>João Pedro</li>
+                    <li>Raphael Odalvo</li>
+                    <li>Gabriel Felice de Freitas Santos</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section>
+            <div>
+                <p>Atualização do Layout do site e produção de conteúdo:</p>
+            </div>
+            <div>
+                <ul>
+                    <li>Bárbara Morais</li>
+                    <li>Celine Soares</li>
+                </ul>
+            </div>
+        </section>
 
     <footer class="rodape">
         <div class="redes">

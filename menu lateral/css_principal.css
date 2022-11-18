@@ -10,30 +10,44 @@ html, body {
 body{
     display: flex;
     flex-direction: column;
+
 }
 
-header{
-    margin: auto;
-    padding: 20px 80px;
-    background-color: cadetblue;
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
     display: flex;
-    position: relative;
+    padding: 0 60px;
     flex-wrap: wrap;
-    margin: 0;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .header-clean{
-    justify-content: space-between;
-    max-width:min-content; 
+    margin: auto;
+    padding: 20px 20px;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
 }
 
 .menu-left{
     margin: 0 auto;
     display: flex;
+    width: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items:flex-start;
+
 }
 
 .logo-menu{
     margin-bottom: 10px;
+    width: 33.3%;
 }
 
 .menu-nav-sup{
@@ -47,6 +61,7 @@ header{
     align-items: center;
     text-decoration: none;
     flex-wrap: wrap;
+    max-width: 600px;
 }
 
 .menu ul{
@@ -85,7 +100,8 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 100px 60px;
+    margin: 100px 0px;
+    justify-content: space-around;
 }
 
 .bloco-texto-intro{
@@ -93,7 +109,9 @@ a{
     flex-direction: column;
     align-content: flex-start;
     flex-wrap: wrap;
-    width: 50%;
+    width: 45%;
+    text-align: justify;
+    padding-bottom: 15px;
 }
 
 .texto-intro{
@@ -109,11 +127,14 @@ a{
 .topicos-main{
     display: flex;
     flex-direction: column;
-    margin: 40px 10px;
+    margin: 30px 10px;
+    align-items: center;
+
 }
 
 .topicos-main p{
-    padding-left: 50px;
+    margin: auto;
+    display: block;
 }
 
 .cards{
@@ -122,22 +143,27 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 90%;
+    width: 100%;
+
 }
 
 .bloco-card-front{
     background-color: #FACB50;
     width: 300px;
     height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-size: 20px;
 }
-
-
-
 
 .flip-container {
     width: 300px;
-    height: 200px;
+    height: 400px;
     perspective: 1000px;
+    margin: 0px 40px;
 }
 
 .flip{
@@ -146,6 +172,7 @@ a{
 	height: 100%;
 	transform-style: preserve-3d;
 	transition: transform 1s;
+
 }
 
 .front, .back{
@@ -159,16 +186,26 @@ a{
     transform: rotateY(180deg);
 }
 
-.back p{
+.bloco-card-back{
+    background-color: #FACB50;
+    width: 300px;
+    height: 400px;
     text-align: center;
-    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 .flip-container:hover .flip{
     transform: rotateY(180deg);
 } 
 
-
+.creditos{
+    background-color: #FD9676;
+    padding: 50px 100px;
+}
 
 .rodape{
     display: flex;
